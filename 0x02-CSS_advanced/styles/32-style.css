@@ -3,10 +3,9 @@
 html {
     scroll-behavior: smooth;
     font-size: 62.5%;
-    box-sizing: border-box;
 }
 *, *:before, *:after {
-    box-sizing: inherit;
+    box-sizing: border-box;
 }
 :root {
     --color-primary: #d73953;
@@ -147,6 +146,7 @@ a:active {
     background-color: var(--color-white);
     width: 0;
     height: 0.2rem;
+    transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .nav .nav-item:hover .nav-link::before {
@@ -188,6 +188,7 @@ a:active {
     color: var(--color-primary);
     font-family: var(--font-family-title);
     text-transform: var(--section-tagline-transform);
+    font-weight: var(--font-weight-bold);
     margin: var(--section-tagline-margin);
 }
 
@@ -231,7 +232,7 @@ ul.row {
     text-align: right;
 }
 
-footer {
+.footer {
     padding: var(--footer-padding);
 }
 
@@ -341,7 +342,7 @@ footer {
     overflow: hidden;
 }
 
-.card-work .card-image {
+.card-work .card-image img {
     height: 30rem;
     width: 100%;
     object-fit: cover;
@@ -375,7 +376,7 @@ footer {
     padding-top: 45%;
 }
 
-.cardwork .card-title a::after {
+.card-work .card-title a::after {
     position: absolute;
     top: 0;
     right: 0;
