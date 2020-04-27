@@ -3,10 +3,9 @@
 html {
     scroll-behavior: smooth;
     font-size: 62.5%;
-    box-sizing: border-box;
 }
 *, *:before, *:after {
-    box-sizing: inherit;
+    box-sizing: border-box;
 }
 :root {
     --color-primary: #d73953;
@@ -163,6 +162,7 @@ a:active {
     color: var(--color-primary);
     font-family: var(--font-family-title);
     text-transform: var(--section-tagline-transform);
+    font-weight: var(--font-weight-bold);
     margin: var(--section-tagline-margin);
 }
 
@@ -206,7 +206,7 @@ ul.row {
     text-align: right;
 }
 
-footer {
+.footer {
     padding: var(--footer-padding);
 }
 
@@ -231,7 +231,7 @@ footer {
     display: block;
 }
 
-.social-link svg {
+.social-link > svg {
     fill: var(--text-color);
 }
 
