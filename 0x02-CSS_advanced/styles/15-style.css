@@ -3,11 +3,12 @@
 html {
     scroll-behavior: smooth;
     font-size: 62.5%;
+}
+
+*, *:before, *:after {
     box-sizing: border-box;
 }
-*, *:before, *:after {
-    box-sizing: inherit;
-}
+
 :root {
     --color-primary: #d73953;
     --color-black: #090909;
@@ -92,6 +93,7 @@ a:active {
     color: var(--color-primary);
     font-family: var(--font-family-title);
     text-transform: var(--section-tagline-transform);
+    font-weight: var(--font-weight-bold);
 }
 
 h1, h2, h3, h4, h5, h6 {
