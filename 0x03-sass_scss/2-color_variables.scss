@@ -1,0 +1,16 @@
+/*assigning 2 Sass variables*/
+$color-text: #3D3D3D;
+$color-bg-primary: #6D6D6D;
+
+body {
+  color: $color-text;
+  background-color: $color-bg-primary;
+}
+
+p {
+  color: $color-text;
+}
+
+h2 {
+  background-color: $color-bg-primary;
+}
