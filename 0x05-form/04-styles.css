@@ -690,7 +690,7 @@
   textarea {
     position: relative;
     width: 100%;
-    padding: 1.2em;
+    padding: 1.2rem;
     line-height: 1;
     border: .1rem solid var(--color-black);
     background-color: var(--color-white);
