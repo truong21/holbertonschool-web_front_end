@@ -962,7 +962,7 @@
   }
 
   .menu-btn:checked ~ .navbar-menu {
-    display: none;
+    display: block;
   }
 
   .menu-btn:checked ~ .navbar-menu .nav {
